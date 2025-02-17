@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "../App.css";
 
-import { getPosts } from "../api";  // Changed path to go up one level
-import PostCard from "../components/PostCard";  // Changed path to go up one level
+import { getPosts } from "../api";  
+import PostCard from "../components/PostCard";  
 import { Link } from "react-router-dom";
 
 function PostsPage() {
