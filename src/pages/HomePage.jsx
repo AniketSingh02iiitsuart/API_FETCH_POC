@@ -21,7 +21,7 @@ function HomePage() {
     <div className="App">
       <h2>Home Page</h2>
       <nav>
-        <Link to="/posts">View Posts</Link>
+        <Link to="/posts">Second Page</Link>
       </nav>
 
       <button onClick={fetchData} disabled={loading}>
